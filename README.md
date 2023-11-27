@@ -1,1 +1,7 @@
-# deep_learning_project
+We have to pursue a project dealing with Deep Learning for CSE493G1 Deep Learning
+
+### Our abstract (not final):
+Data collection and processing play a crucial role in the training and performance of today's learning models. The quality and quantity of data can greatly affect the capacity of models, which makes accessible data highly sought after. While there are unfortunately many niche application fields which lack this accessible data, methodologies such as data augmentation and few-shot learning have allowed powerful models to be developed for these fields with sparse amounts of data. Our work is particularly centered around an application field where high amounts of quality data are not as accessible: hydroponic indoor farming. We utilize both methodologies of few-shot learning and data augmentation to specifically explore the performance of different data augmentation techniques in the context of species classification of indoor hydroponic plants, in which data is notably limited. We discuss our experiments which leverage pretrained few-shot learning models fine-tuned on different augmentations of our collected data, with the goal of finding an augmentation technique that results in the most substantial increase in classification performance. We suggest reasoning behind the performances of our prospective techniques and close with the possibility of generalization of our findings for future application fields.
+
+### -
+In *project_caption_evaluation.ipynb*, I evaluated the different captions and learned which is the best caption for a given set of images the model has never seen before.
